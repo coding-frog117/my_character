@@ -1,0 +1,266 @@
+body{
+    background-color: paleturquoise;
+}
+
+.cogury{
+    position:relative;
+    margin:50px auto;
+    width: 410px;
+
+}
+
+.face{
+    width:380px;
+    height: 130px;
+    background-color:#55A851;
+    border:5px solid white;
+    border-radius: 40%;
+}
+
+.ear_left, .ear_right{
+    width:95px;
+    height: 120px;
+    background-color: #55A851;
+    border-radius: 50% 50% 0 0;
+
+}
+
+.ear_left{
+    position:relative;
+    left:100px;
+    top:133px;
+    border:5px solid white;
+    border-bottom: 0;
+}
+
+.ear_right{
+    position: relative;
+    left:208px;
+    top:10px;
+    border:5px solid white;
+    border-bottom: 0;
+}
+
+div[class*=brow_left], div[class*=brow_right]{
+    width:2px;
+    height:25px;
+    background-color: black;
+}
+
+.brow_left1{
+    position: relative;
+    left:145px;
+    bottom:70px;
+    rotate: -10deg;
+}
+
+.brow_left2{
+    position: relative;
+    left:151px;
+    bottom: 97px;
+}
+
+.brow_left3{
+    position: relative;
+    left:157px;
+    bottom: 120px;
+    rotate: 10deg;
+}
+
+.brow_right1{
+    position: relative;
+    left:249px;
+    bottom:143px;
+    rotate: -10deg;
+}
+
+.brow_right2{
+    position: relative;
+    left: 255px;
+    bottom: 170px;
+}
+
+.brow_right3{
+    position: relative;
+    left:261px;
+    bottom:193px;
+    rotate: 10deg;
+}
+
+.eye_left, .eye_right{
+    width: 32px;
+    height:50px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.eye_left{
+    position: relative;
+    left:130px;
+    bottom:210px;
+}
+
+.eye_right{
+    position: relative;
+    left:240px;
+    bottom:260px;
+}
+
+.mouth_left, .mouth_right{
+    width: 35px;
+    height: 70px;
+    background-color: #55A851;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.mouth_left{
+    position: relative;
+    left:160px;
+    bottom:250px;
+}
+
+.mouth_right{
+    position:relative;
+    left:197px;
+    bottom:330px;
+}
+
+.mouth_right::after{
+    content:' ';
+    display: table;
+    position: relative;
+    width:100px;
+    height:60px;
+    background-color: #55A851;
+    right: 50px;
+    bottom: 10px;
+}
+.red_left, .red_right{
+    position: relative;
+    width:90px;
+    height:90px;
+    background-color: #EC3519;
+    border-radius: 45%;
+}
+
+/* #EC3519; 다홍색 */
+
+.red_left{
+    bottom:390px;
+    right:2px;
+}
+.red_right{
+    bottom:480px;
+    left:292px;
+}
+
+.arm_left,.arm_right{
+    position: absolute;
+    width:50px;
+    height:110px;
+    background-color: #55A851;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.arm_left{
+    rotate:40deg;
+    left:60px;
+    top:379px;
+    border: 5px solid white;
+}
+
+.arm_right{
+    rotate: -40deg;
+    left:295px;
+    top:375px;
+    border: 5px solid white;
+}
+
+.body{
+    margin: 0 auto;
+    width: 200px;
+    height: 60px;
+    background-color: #55A851;
+    z-index: 10 !important;
+
+}
+.우물{
+    width:410px;
+    margin:0 auto;
+    background-color: lightgray;
+    border-radius: 0 0 30% 30%;
+    border:5px solid #350505;
+    border-top:0;
+    
+}
+ 
+.우물1{
+    position:absolute;
+    background-color: lightgray;
+    width:400px;
+    height:100px;
+    top:490px;
+    border-radius:50%;
+    border:5px solid darkgray;
+    z-index: 3;
+
+}
+
+.water{
+    position: relative;
+    left:22px;
+    top:10px;
+    width:350px;
+    height:70px;
+    background-color: #1488C6;
+    border-radius: 50%;
+    z-index: 5;
+}
+
+.우물2,.우물3, .우물4, .우물5{
+    position: relative;
+    width:400px;
+    height:50px;
+    border-radius: 0 0 50% 50%;
+    border-bottom:5px solid #350505;
+    left:5px;
+
+}
+
+.우물5{
+    border-bottom:none;
+}
+
+div[class*=line]{
+    width:140px;
+    height:51px;
+    border-left:5px solid #350505;
+    border-right:5px solid #350505;
+    z-index:2;
+    position:relative;
+    bottom:1px;
+}
+
+.line1{
+    position: relative;
+    left:100px;
+}
+
+.line3{
+    position: relative;
+    left:200px;
+}
+
+.line2{
+    position: relative;
+    left:50px;
+}
+
+.line4{
+    position: relative;
+    left:180px;
+    border-left: 0 !important;
+}
